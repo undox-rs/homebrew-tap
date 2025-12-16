@@ -1,25 +1,25 @@
 class Undox < Formula
   desc "A static site generator for multi-repo documentation"
   homepage "https://undox.dev"
-  version "0.1.7"
+  version "0.1.8"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/undox-rs/undox/releases/download/v0.1.7/undox-aarch64-apple-darwin.tar.xz"
-      sha256 "f98c2548fad0520b98bb38eab81aaba0e2a9aa7cc42db68888f1e29e9710018c"
+      url "https://github.com/undox-rs/undox/releases/download/v0.1.8/undox-aarch64-apple-darwin.tar.xz"
+      sha256 "8eed2d4ecfea763a7cda10e5dc8b2f0c87a5d5bc648406aeb1e0eb0f45404949"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/undox-rs/undox/releases/download/v0.1.7/undox-x86_64-apple-darwin.tar.xz"
-      sha256 "ce197d18c5731ffb910d6d4ad2dcd2d097a69ee664ba418e290108b6c31ceefd"
+      url "https://github.com/undox-rs/undox/releases/download/v0.1.8/undox-x86_64-apple-darwin.tar.xz"
+      sha256 "3286d739f9607b7e9f5520d999cd788ba45ac0e24f500bb675737325079e4908"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/undox-rs/undox/releases/download/v0.1.7/undox-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "3d62034a9538154c9359aa30feea95a1e3761f16a2f4b5e167561f85cce62b7a"
+      url "https://github.com/undox-rs/undox/releases/download/v0.1.8/undox-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "7e40ccd6a1f53b2e245e185193f1861196438d05cd5c4eb8960a0a91d655d0af"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/undox-rs/undox/releases/download/v0.1.7/undox-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "610fe51a181978357f22088dde4dc82f7845c6c187898e47f2cd40f5459a370b"
+      url "https://github.com/undox-rs/undox/releases/download/v0.1.8/undox-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "167af90ca512d54b6ad3b6bffe68d09afea00579f6dc2ba3c8fffb076b7fec66"
     end
   end
   license "MIT"
